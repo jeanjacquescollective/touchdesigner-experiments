@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "node-osc": "^9.1.4",
+    "nodemon": "^3.1.9",
+    "ws": "^8.18.1"
+  },
+  "scripts": {
+    "start": "nodemon ./src/main.js"
+  },
+  "type": "module"
+}

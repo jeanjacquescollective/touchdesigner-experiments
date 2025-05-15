@@ -1,0 +1,101 @@
+product_id,product_name,category,price,sustainability_rating,units_sold,country,popularity_score,material
+1,BILLY Bookcase,Furniture,49.99,4.5,12000,Sweden,8.9,Wood
+2,POÄNG Armchair,Furniture,79.99,4.7,8500,USA,9.2,Wood/Fabric
+3,MALM Bed Frame,Furniture,199.99,4.3,6000,Germany,8.5,Wood
+4,KALLAX Shelf Unit,Furniture,69.99,4.6,9500,Netherlands,9.0,Wood
+5,LACK Coffee Table,Furniture,29.99,4.2,15000,UK,8.7,Wood
+6,SKUBB Storage Box,Storage,12.99,4.8,20000,France,9.5,Polyester
+7,GRÖNLID Sofa,Furniture,499.99,4.4,3000,Canada,8.3,Fabric
+8,HEMNES Dresser,Furniture,249.99,4.6,4000,Australia,8.8,Wood
+9,BEKANT Desk,Office,199.99,4.5,5000,Italy,8.6,Wood/Metal
+10,ÖVERMATT Rug,Home Decor,99.99,4.7,7000,Spain,9.1,Cotton
+11,KLIPPAN Loveseat,Furniture,249.99,4.4,4500,USA,8.4,Fabric
+12,VARIERA Shelf Insert,Storage,5.99,4.9,18000,Sweden,9.6,Steel
+13,EKET Cabinet,Furniture,35.99,4.3,11000,Germany,8.2,Wood
+14,RÅSKOG Utility Cart,Storage,29.99,4.8,14000,Netherlands,9.4,Steel
+15,FEJKA Artificial Plant,Home Decor,9.99,4.6,16000,UK,8.9,Plastic
+16,FLISAT Children's Stool,Furniture,19.99,4.7,7000,France,9.0,Wood
+17,KNAGGLIG Box,Storage,12.99,4.5,12000,Canada,8.7,Wood
+18,TRÅDFRI Smart Bulb,Electronics,19.99,4.8,9000,Australia,9.3,Glass/Plastic
+19,ODGER Chair,Furniture,89.99,4.6,5000,Italy,8.8,Wood/Plastic
+20,VINDRIKTNING Air Quality Sensor,Electronics,39.99,4.7,6000,Spain,9.2,Plastic
+21,BLÅHAJ Soft Toy,Home Decor,19.99,4.9,15000,Sweden,9.7,Polyester
+22,ANTILOP High Chair,Furniture,14.99,4.8,13000,USA,9.4,Plastic/Steel
+23,DRÖNA Box,Storage,3.99,4.6,17000,Germany,8.9,Fabric
+24,SKOGSTA Bench,Furniture,99.99,4.5,4000,Netherlands,8.5,Wood
+25,STOCKHOLM Mirror,Home Decor,129.99,4.7,3000,UK,9.1,Glass/Wood
+26,HEKTAR Floor Lamp,Lighting,69.99,4.6,8000,France,8.8,Steel
+27,FRIHETEN Sofa Bed,Furniture,599.99,4.4,3500,Canada,8.3,Fabric
+28,NYMÅNE Pendant Lamp,Lighting,49.99,4.7,7500,Australia,9.0,Steel/Glass
+29,PLATSA Wardrobe,Furniture,199.99,4.5,5500,Italy,8.6,Wood
+30,SMÅSTAD Loft Bed,Furniture,399.99,4.6,2000,Spain,8.7,Wood
+31,ÄPPLARÖ Outdoor Table,Furniture,149.99,4.7,4500,Sweden,9.1,Wood
+32,GRUNDTAL Rail,Storage,9.99,4.8,10000,USA,9.3,Steel
+33,EKOLSUND Recliner,Furniture,299.99,4.5,2500,Germany,8.4,Fabric
+34,ALÄNG Table Lamp,Lighting,29.99,4.6,6000,Netherlands,8.9,Steel/Fabric
+35,BRIMNES Bed Frame,Furniture,179.99,4.4,5000,UK,8.5,Wood
+36,GLADOM Tray Table,Furniture,19.99,4.7,9000,France,9.0,Steel
+37,ODDVAR Stool,Furniture,14.99,4.5,8000,Canada,8.6,Wood
+38,KRAGSTA Coffee Table,Furniture,79.99,4.6,4000,Australia,8.8,Wood
+39,LINNMON Tabletop,Furniture,29.99,4.3,11000,Italy,8.2,Wood
+40,MARKUS Office Chair,Furniture,229.99,4.7,3000,Spain,9.0,Fabric/Steel
+41,STUVA Storage Bench,Storage,59.99,4.6,7000,Sweden,8.9,Wood
+42,ÅRSTID Floor Lamp,Lighting,49.99,4.5,6000,USA,8.7,Steel/Fabric
+43,EKORRE Rocking Moose,Furniture,29.99,4.8,5000,Germany,9.2,Wood
+44,IVAR Shelving Unit,Furniture,69.99,4.6,8000,Netherlands,8.8,Wood
+45,TOBIAS Chair,Furniture,79.99,4.4,7000,UK,8.5,Plastic/Steel
+46,MÅLA Easel,Furniture,24.99,4.7,6000,France,9.0,Wood
+47,LEIRVIK Bed Frame,Furniture,149.99,4.5,4000,Canada,8.6,Steel
+48,TRYSIL Wardrobe,Furniture,129.99,4.6,5000,Australia,8.8,Wood
+49,KNOPPARP Sofa,Furniture,99.99,4.4,3000,Italy,8.3,Fabric/Steel
+50,PS 2017 Armchair,Furniture,249.99,4.7,2000,Spain,9.1,Fabric/Steel
+51,EKEDALEN Dining Table,Furniture,199.99,4.6,3500,Sweden,8.9,Wood
+52,HEMNES Shoe Cabinet,Furniture,99.99,4.5,4000,USA,8.7,Wood
+53,STENSTORP Kitchen Island,Furniture,249.99,4.7,2500,Germany,9.0,Wood/Steel
+54,ÄPPLARÖ Bench,Furniture,79.99,4.6,5000,Netherlands,8.8,Wood
+55,SKARSTA Desk,Furniture,229.99,4.5,3000,UK,8.6,Wood/Steel
+56,EKET Wall Cabinet,Furniture,25.99,4.7,7000,France,9.0,Wood
+57,POÄNG Footstool,Furniture,49.99,4.6,6000,Canada,8.8,Wood/Fabric
+58,GRÖNLID Ottoman,Furniture,149.99,4.4,2000,Australia,8.3,Fabric
+59,HEMNES Nightstand,Furniture,69.99,4.7,4000,Italy,9.0,Wood
+60,BEKANT Conference Table,Furniture,399.99,4.6,1500,Spain,8.7,Wood/Metal
+61,ÖVERMATT Cushion,Home Decor,19.99,4.8,8000,Sweden,9.3,Fabric
+62,KLIPPAN Cover,Furniture,29.99,4.6,7000,USA,8.9,Fabric
+63,VARIERA Pot Lid Organizer,Storage,7.99,4.9,12000,Germany,9.5,Steel
+64,FLISAT Wall Storage,Furniture,14.99,4.7,6000,Netherlands,9.0,Wood
+65,RÅSKOG Trolley,Storage,39.99,4.8,9000,UK,9.2,Steel
+66,FEJKA Potted Plant,Home Decor,4.99,4.6,14000,France,8.9,Plastic
+67,KNAGGLIG Wooden Box,Storage,9.99,4.5,11000,Canada,8.7,Wood
+68,TRÅDFRI Gateway,Electronics,29.99,4.8,5000,Australia,9.3,Plastic
+69,ODGER Dining Chair,Furniture,99.99,4.6,4000,Italy,8.8,Wood/Plastic
+70,VINDRIKTNING Sensor,Electronics,39.99,4.7,3000,Spain,9.1,Plastic
+71,BLÅHAJ Shark Toy,Home Decor,19.99,4.9,10000,Sweden,9.7,Polyester
+72,ANTILOP Tray,Furniture,4.99,4.8,8000,USA,9.4,Plastic
+73,DRÖNA Fabric Box,Storage,3.99,4.6,13000,Germany,8.9,Fabric
+74,SKOGSTA Dining Bench,Furniture,99.99,4.5,3000,Netherlands,8.5,Wood
+75,STOCKHOLM Vase,Home Decor,29.99,4.7,2000,UK,9.1,Glass
+76,HEKTAR Pendant Lamp,Lighting,49.99,4.6,5000,France,8.8,Steel
+77,FRIHETEN Corner Sofa,Furniture,699.99,4.4,1500,Canada,8.3,Fabric
+78,NYMÅNE Ceiling Lamp,Lighting,69.99,4.7,4000,Australia,9.0,Steel/Glass
+79,PLATSA Storage Unit,Furniture,199.99,4.5,2500,Italy,8.6,Wood
+80,SMÅSTAD Desk,Furniture,149.99,4.6,1000,Spain,8.7,Wood
+81,ÄPPLARÖ Chair,Furniture,49.99,4.7,3000,Sweden,9.1,Wood
+82,GRUNDTAL Shelf,Storage,19.99,4.8,7000,USA,9.3,Steel
+83,EKOLSUND Armchair,Furniture,299.99,4.5,1500,Germany,8.4,Fabric
+84,ALÄNG Floor Lamp,Lighting,39.99,4.6,4000,Netherlands,8.9,Steel/Fabric
+85,BRIMNES Wardrobe,Furniture,179.99,4.4,3000,UK,8.5,Wood
+86,GLADOM Side Table,Furniture,19.99,4.7,7000,France,9.0,Steel
+87,ODDVAR Step Stool,Furniture,14.99,4.5,6000,Canada,8.6,Wood
+88,KRAGSTA Side Table,Furniture,49.99,4.6,3000,Australia,8.8,Wood
+89,LINNMON Desk,Furniture,29.99,4.3,9000,Italy,8.2,Wood
+90,MARKUS Chair,Furniture,229.99,4.7,2000,Spain,9.0,Fabric/Steel
+91,STUVA Bench,Storage,59.99,4.6,5000,Sweden,8.9,Wood
+92,ÅRSTID Table Lamp,Lighting,29.99,4.5,4000,USA,8.7,Steel/Fabric
+93,EKORRE Moose,Furniture,29.99,4.8,3000,Germany,9.2,Wood
+94,IVAR Cabinet,Furniture,69.99,4.6,6000,Netherlands,8.8,Wood
+95,TOBIAS Stool,Furniture,79.99,4.4,5000,UK,8.5,Plastic/Steel
+96,MÅLA Paint Set,Furniture,24.99,4.7,4000,France,9.0,Wood
+97,LEIRVIK Frame,Furniture,149.99,4.5,3000,Canada,8.6,Steel
+98,TRYSIL Cabinet,Furniture,129.99,4.6,4000,Australia,8.8,Wood
+99,KNOPPARP Loveseat,Furniture,99.99,4.4,2000,Italy,8.3,Fabric/Steel
+100,PS 2017 Chair,Furniture,249.99,4.7,1000,Spain,9.1,Fabric/Steel

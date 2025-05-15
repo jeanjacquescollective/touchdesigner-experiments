@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-blue">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IKEA Living Spaces - Interactive Installation</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Ikea_logo.svg" alt="IKEA Logo" class="ikea-logo">
+      <h1>Living Spaces</h1>
+    </div>
+    <div class="connection-info">
+      <span id="connection-status" class="status-connecting">Connecting...</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="control-panel">
+      <div class="control-group">
+        <label for="furniture-category">Furniture Category:</label>
+        <select id="furniture-category" class="ikea-select">
+            <option value="furniture">Furniture</option>
+            <option value="storage">Storage</option>
+            <option value="home_decor">Home Decor</option>
+            <option value="electronics">Electronics</option>
+            <option value="lighting">Lighting</option>
+        </select>
+      </div>
+
+      <div class="control-group">
+        <label for="color-scheme">Color Scheme:</label>
+        <select id="color-scheme" class="ikea-select">
+            <option value="blue" data-hexColor="#0058A3">IKEA Blue</option>
+            <option value="yellow" data-hexColor="#FFCC00">IKEA Yellow</option>
+            <option value="green" data-hexColor="#4CAF50">Eco Green</option>
+            <option value="gray" data-hexColor="#A9A9A9">Scandinavian Gray</option>
+        </select>
+      </div>
+
+      <!-- <div class="control-group">
+        <label for="sustainability-slider">Sustainability Impact:</label>
+        <div class="slider-container">
+          <input type="range" id="sustainability-slider" min="0" max="100" value="50" class="ikea-slider">
+          <span id="sustainability-value">50%</span>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label for="population-slider">Population Density:</label>
+        <div class="slider-container">
+          <input type="range" id="population-slider" min="0" max="100" value="40" class="ikea-slider">
+          <span id="population-value">40%</span>
+        </div>
+      </div> -->
+
+      <div class="control-group">
+        <label for="room-width-input">Room Width (m):</label>
+        <div class="input-container">
+          <input type="number" id="room-width-input" min="2" max="1000000000" value="300" class="ikea-input">
+          <span>cm</span>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label for="room-length-input">Room Length (m):</label>
+        <div class="input-container">
+          <input type="number" id="room-length-input" min="2" max="1000000000" value="300" class="ikea-input">
+          <span>cm</span>
+        </div>
+      </div>
+
+      <div class="control-group">
+        <label>Room Area:</label>
+        <div class="slider-container">
+          <span id="room-area-value">25</span>
+          <span>m²</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="visualization-section">
+      <div class="visualization-header">
+        <h2>Popular IKEA Items</h2>
+        <p>See which items are trending in real-time</p>
+      </div>
+      <div id="popular-items-chart" class="chart-container">
+        <!-- Chart bars will be inserted here by JavaScript -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>IKEA Living Spaces Interactive Installation | © 2025</p>
+  </footer>
+
+  <script src="js/main.js" type="module"></script>
+</body>
+</html>

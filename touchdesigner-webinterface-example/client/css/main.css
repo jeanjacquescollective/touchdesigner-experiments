@@ -1,0 +1,296 @@
+/* IKEA Living Spaces - Interactive Installation Styles */
+
+/* Theme colors */
+:root {
+  --ikea-blue: #0051ba;
+  --ikea-yellow: #ffda1a;
+  --ikea-gray: #f5f5f5;
+  --ikea-dark-gray: #333333;
+  --eco-green: #2b7c31;
+  --light-text: #ffffff;
+  --dark-text: #333333;
+  --primary-color: var(--ikea-blue);
+  --secondary-color: var(--ikea-yellow);
+  --background-color: var(--ikea-gray);
+  --text-color: var(--ikea-dark-gray);
+}
+
+/* Theme variations */
+.theme-blue {
+  --primary-color: var(--ikea-blue);
+  --secondary-color: var(--ikea-yellow);
+  --text-color: var(--ikea-dark-gray);
+  --accent-color: #007cc1;
+}
+
+.theme-yellow {
+  --primary-color: var(--ikea-yellow);
+  --secondary-color: var(--ikea-blue);
+  --text-color: var(--ikea-dark-gray);
+  --accent-color: #ffc300;
+}
+
+.theme-green {
+  --primary-color: var(--eco-green);
+  --secondary-color: var(--ikea-yellow);
+  --text-color: var(--ikea-dark-gray);
+  --accent-color: #1e5b24;
+}
+
+.theme-gray {
+  --primary-color: #607d8b;
+  --secondary-color: #cfd8dc;
+  --text-color: var(--ikea-dark-gray);
+  --accent-color: #455a64;
+}
+
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans', Arial, sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.ikea-logo {
+  height: 40px;
+  margin-right: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.connection-info {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.status-connecting,
+.status-disconnected,
+.status-error,
+.status-connected {
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.status-connecting {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.status-disconnected {
+  background-color: #f44336;
+  color: white;
+}
+
+.status-error {
+  background-color: #9c27b0;
+  color: white;
+}
+
+.status-connected {
+  background-color: #4caf50;
+  color: white;
+}
+
+/* Main content */
+main {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* Control panel */
+.control-panel {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+label {
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.ikea-select {
+  padding: 0.8rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 4px;
+  background-color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ikea-slider {
+  flex: 1;
+  height: 8px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: #e0e0e0;
+  border-radius: 4px;
+  outline: none;
+}
+
+.ikea-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.ikea-slider::-moz-range-thumb {
+  width: 24px;
+  height: 24px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ikea-input {
+  padding: 0.8rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100px;
+}
+
+/* Visualization section */
+.visualization-section {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.visualization-header {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.visualization-header h2 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.chart-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.item-name {
+  width: 100px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.chart-bar {
+  height: 30px;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  transition: width 0.5s ease-in-out;
+}
+
+.item-count {
+  min-width: 50px;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  .control-panel {
+    grid-template-columns: 1fr;
+  }
+  
+  .item-name {
+    width: 80px;
+    font-size: 0.9rem;
+  }
+}
