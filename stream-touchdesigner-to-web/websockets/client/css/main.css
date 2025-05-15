@@ -1,0 +1,15 @@
+    body {
+        background: #111;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: sans-serif;
+    }
+
+    .live-stream {
+        max-width: 90vw;
+        max-height: 90vh;
+        margin-top: 1em;
+        border: 2px solid #333;
+    }
