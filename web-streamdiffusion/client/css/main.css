@@ -1,0 +1,74 @@
+    body {
+        background: linear-gradient(135deg, #232526 0%, #414345 100%);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Segoe UI', Arial, sans-serif;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    h1 {
+        margin-top: 2em;
+        font-size: 2.2em;
+        letter-spacing: 1px;
+        color: #ffb347;
+        text-shadow: 0 2px 8px #0008;
+    }
+
+    .live-stream {
+        max-width: 90vw;
+        max-height: 70vh;
+        margin-top: 1.5em;
+        border: 3px solid #444;
+        border-radius: 12px;
+        box-shadow: 0 4px 24px #0006;
+        background: #222;
+        object-fit: contain;
+    }
+
+    #messageInput {
+        padding: 0.7em 1em;
+        border: 1px solid #444;
+        border-radius: 8px 0 0 8px;
+        background: #222;
+        color: #fff;
+        font-size: 1em;
+        outline: none;
+        margin-top: 1.5em;
+        width: 260px;
+        transition: border 0.2s;
+    }
+
+    #messageInput:focus {
+        border-color: #ffb347;
+    }
+
+    #sendButton {
+        padding: 0.7em 1.2em;
+        border: none;
+        border-radius: 0 8px 8px 0;
+        background: #ffb347;
+        color: #222;
+        font-weight: bold;
+        font-size: 1em;
+        cursor: pointer;
+        transition: background 0.2s;
+    }
+
+    #sendButton:hover {
+        background: #ffcc80;
+    }
+
+    .current-prompt-tag {
+        margin-top: 1em;
+        padding: 0.6em 1.2em;
+        background: #222;
+        border-left: 4px solid #ffb347;
+        border-radius: 0 8px 8px 0;
+        font-size: 1.1em;
+        color: #ffb347;
+        min-height: 1.5em;
+        box-shadow: 0 2px 8px #0004;
+    }
