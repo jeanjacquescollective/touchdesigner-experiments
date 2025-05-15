@@ -1,4 +1,5 @@
 import { WebSocketServer, WebSocket } from 'ws';
+import { createWebRTCSignalingServer } from './webRTC.js';
 
 const portWebSocket = 5002;
 
@@ -34,3 +35,7 @@ wss.on('connection', (ws) => {
 });
 
 console.log(`Pure WebSocket server running on port ${portWebSocket}`);
+
+// createWebRTCSignalingServer({
+//     port: 5003
+// });
