@@ -3,7 +3,7 @@ const messageInput = document.getElementById('messageInput');
 const sendButton = document.getElementById('sendButton');
 const img = document.getElementById('frame');
 
-const currentIP = '192.168.129.31';
+const currentIP = 'localhost'; // Change this to your server's IP address
 const currentPort = '5002';
 const currentURL = `ws://${currentIP}:${currentPort}`;
 const socket = new WebSocket(currentURL);
