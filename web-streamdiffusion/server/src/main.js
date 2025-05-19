@@ -10,7 +10,7 @@ wss.on('connection', (ws) => {
     console.log('A user connected via WebSocket');
 
     ws.on('message', (message) => {
-        console.log('Received message via WebSocket:', message);
+        // console.log('Received message via WebSocket:', message);
         const data = JSON.parse(message.toString());
 
         if (data.type === 'updated-prompt') {
